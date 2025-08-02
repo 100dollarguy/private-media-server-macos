@@ -50,8 +50,6 @@ You can stream your content **locally and remotely** using your phone, tablet, b
 - Access from local browser:
 http://localhost:8096
 
-![Jellyfin UI](/images/\ .png)
-
 ![Jellyfin UI](/images/e0a87856b69877660cb539a2a69dc60452aecc124bfc97116133877b45c2701e.png)
 
 ![Jellyfin UI](/images/172f7eec117ffc94c592bcde0458c9fa97b1a0684876737203c09085f555d06c.png)
@@ -101,11 +99,14 @@ http://100.x.x.x:8096
 (Optional) Enable MagicDNS for cleaner access:
 http://your-mac-hostname.ts.net:8096
 
-🌐 Local Access
-On host machine:
-http://localhost:8096
-On same LAN:
-http://<your-local-ip>:8096
+🌐 **Local Access**
+- On host machine: `http://localhost:8096`
+- On same LAN: `http://<your-local-ip>:8096`
+
+🌐 **Remote Access**
+- Via Tailscale IP: `http://100.x.x.x:8096`
+- With MagicDNS (optional): `http://your-mac-hostname.ts.net:8096`
+
 ---
 
 ### ✅ Testing Checklist
