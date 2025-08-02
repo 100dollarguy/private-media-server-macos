@@ -56,7 +56,7 @@ http://localhost:8096
 ![Jellyfin UI](/images/c94a31989ce61edb7f6bde2bf4da4f3e80a8a6b334b52fe6d743206dd087ed2d.png)
 ![Jellyfin UI](/images/3db3b67bfda05e1aa8087d2978e2288338c31631f2a4e246569ab034bfc2f961.png)
 ![Jellyfin UI](/images/223a6972096016dcc58d27a91280f5326c86aad4a3a6b7f45629656584597579.png)
-![Jellyfin UI](/images/223a6972096016dcc58d27a91280f5326c86aad4a3a6b7f45629656584597579.png)
+![Jellyfin UI](/images/d2e0e28a56e0df796a74f0c2bce3f523839b51e3415370716823a75066fae65c.png)
 ![Jellyfin UI](/images/d3bdb6284bcb42f4383f75db612e1a125febbbbd0c7d372a9579a04bd505d7fd.png)
 
 
