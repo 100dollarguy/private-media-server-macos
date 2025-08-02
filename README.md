@@ -187,9 +187,10 @@ With this setup, I now have:
 
 ## ✨ License
 
-This project uses only open-source tools and has no proprietary dependencies. You are free to adapt and extend this for personal or educational use.
-📌 Want to contribute improvements?
-Fork this repo, clone it, and improve it for your setup or share with friends & family. Happy streaming! 🎬
+This project is licensed under the [MIT License](LICENSE).  
+You are free to use, modify, and distribute it for personal or commercial use.
+
+📌 Want to contribute improvements? Fork this repo, clone it, and improve it for your setup or share with friends & family. Happy streaming! 🎬
 
 ---
 
