@@ -25,7 +25,7 @@ You can stream your content **locally and remotely** using your phone, tablet, b
 | **macOS**       | Host OS                                          |
 | **Port 8096**   | Default port for Jellyfin web interface          |
 
-![Jellyfin UI](/Users/grery/Desktop/JellyFin/d3bdb6284bcb42f4383f75db612e1a125febbbbd0c7d372a9579a04bd505d7fd.png)
+![Jellyfin UI](/images/d3bdb6284bcb42f4383f75db612e1a125febbbbd0c7d372a9579a04bd505d7fd.png)
 
 ---
 
@@ -51,7 +51,7 @@ You can stream your content **locally and remotely** using your phone, tablet, b
 - Access from local browser:
 http://localhost:8096
 
-![Jellyfin Setup](/Users/grery/Projects/private-media-server-macos/images/e0a87856b69877660cb539a2a69dc60452aecc124bfc97116133877b45c2701e.png)
+![Jellyfin Setup](/images/e0a87856b69877660cb539a2a69dc60452aecc124bfc97116133877b45c2701e.png)
 
 ---
 
@@ -59,7 +59,7 @@ http://localhost:8096
 - Create folders for content: `~/Media/Movies`, `~/Media/TV`, etc.
 - In Jellyfin, go to **Dashboard → Libraries → Add Media Library**
 
-![Library Setup](/Users/grery/Projects/private-media-server-macos/images/5a2f6c9942ab8fa52b93956822298cbea60ba334d73e1783fbd1e581b57a14db.png)
+![Library Setup](/images/5a2f6c9942ab8fa52b93956822298cbea60ba334d73e1783fbd1e581b57a14db.png)
 
 ---
 
