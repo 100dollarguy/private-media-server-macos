@@ -25,6 +25,12 @@ You can stream your content **locally and remotely** using your phone, tablet, b
 | **macOS**       | Host OS                                          |
 | **Port 8096**   | Default port for Jellyfin web interface          |
 
+![Jellyfin UI](/images/\ .png)
+![Jellyfin UI](/images/e0a87856b69877660cb539a2a69dc60452aecc124bfc97116133877b45c2701e.png)
+![Jellyfin UI](/images/172f7eec117ffc94c592bcde0458c9fa97b1a0684876737203c09085f555d06c.png)
+![Jellyfin UI](/images/c94a31989ce61edb7f6bde2bf4da4f3e80a8a6b334b52fe6d743206dd087ed2d.png)
+![Jellyfin UI](/images/3db3b67bfda05e1aa8087d2978e2288338c31631f2a4e246569ab034bfc2f961.png)
+![Jellyfin UI]
 ![Jellyfin UI](/images/d3bdb6284bcb42f4383f75db612e1a125febbbbd0c7d372a9579a04bd505d7fd.png)
 
 ---
@@ -51,7 +57,15 @@ You can stream your content **locally and remotely** using your phone, tablet, b
 - Access from local browser:
 http://localhost:8096
 
-![Jellyfin Setup](/images/e0a87856b69877660cb539a2a69dc60452aecc124bfc97116133877b45c2701e.png)
+![Jellyfin UI](/images/\ .png)
+![Jellyfin UI](/images/e0a87856b69877660cb539a2a69dc60452aecc124bfc97116133877b45c2701e.png)
+![Jellyfin UI](/images/172f7eec117ffc94c592bcde0458c9fa97b1a0684876737203c09085f555d06c.png)
+![Jellyfin UI](/images/c94a31989ce61edb7f6bde2bf4da4f3e80a8a6b334b52fe6d743206dd087ed2d.png)
+![Jellyfin UI](/images/3db3b67bfda05e1aa8087d2978e2288338c31631f2a4e246569ab034bfc2f961.png)
+![Jellyfin UI](/images/223a6972096016dcc58d27a91280f5326c86aad4a3a6b7f45629656584597579.png)
+![Jellyfin UI](/images/223a6972096016dcc58d27a91280f5326c86aad4a3a6b7f45629656584597579.png)
+![Jellyfin UI](/images/d3bdb6284bcb42f4383f75db612e1a125febbbbd0c7d372a9579a04bd505d7fd.png)
+
 
 ---
 
@@ -60,16 +74,18 @@ http://localhost:8096
 - In Jellyfin, go to **Dashboard → Libraries → Add Media Library**
 
 ![Library Setup](/images/5a2f6c9942ab8fa52b93956822298cbea60ba334d73e1783fbd1e581b57a14db.png)
-
+![Library Setup](/images/8b5485c0bca04bc23e412933666596ee11b6a4e7a561a3d0901b5e44694f359b.png)
 ---
 
 ### ✅ 3. Install and Configure Tailscale
 - Download Tailscale from [tailscale.com/download](https://tailscale.com/download)
+![Download UI](/images/e0be22e05f3a8f8af4bdf7b10af2b8ab95c66e0709d5add0cec678fa904f633d.png)
 - Log in and connect the device
 - Get your Tailscale IP:
-```bash
-tailscale ip
-✅ 4. Access Remotely via Tailscale
+![Tailscale IP](/images/Tailscale-ip\ .png)
+---
+
+###✅ 4. Access Remotely via Tailscale
 From any other device with Tailscale installed, access:
 http://100.x.x.x:8096
 (Optional) Enable MagicDNS for cleaner access:
@@ -79,47 +95,63 @@ On host machine:
 http://localhost:8096
 On same LAN:
 http://<your-local-ip>:8096
-✅ Testing Checklist
+---
+
+###✅ Testing Checklist
 Task	Status
 Jellyfin accessible on localhost	✅
 Media libraries added	✅
 Remote access via Tailscale IP	✅
 Tested from mobile device	✅
 MagicDNS hostname access (optional)	✅ / ❌
-🔐 Security Notes
+---
+
+###🔐 Security Notes
 No public IP exposure required
 All traffic encrypted with WireGuard via Tailscale
 Jellyfin supports user login with password
 Tailscale ACLs can limit which devices can access the server
-📱 Supported Clients
+---
+
+###📱 Supported Clients
 Platform	Method
 Desktop	Web browser, VLC, MPV
 Mobile	Jellyfin app or browser
 Smart TVs	Jellyfin TV app, DLNA, Plex app
-🔧 Optional Enhancements
+---
+
+###🔧 Optional Enhancements
 Feature	Description
 Reverse Proxy (Caddy/Nginx)	Add HTTPS or custom domains (advanced)
 Auto-start on Boot	Start Jellyfin + Tailscale on login
 Plugins & Themes	Metadata enhancers, intro skip, etc.
 Device Sharing	Share Jellyfin access securely via Tailscale
-📚 What I Learned
+---
+
+###📚 What I Learned
 This project helped me develop practical skills in:
 🧠 Hosting a private, customizable streaming platform
 🔐 Securing access using Tailscale without exposing ports
 🖥️ Installing and managing services on macOS
 🌍 Networking concepts like mesh VPNs and MagicDNS
 🧪 Troubleshooting connectivity, firewall, and library issues
-📁 Project Outcome
+---
+
+###📁 Project Outcome
 With this setup, I now have:
 A secure, private media server accessible from anywhere
 Zero monthly costs, no ads, and no external trackers
 Full control over my library, user access, and playback
 An understanding of self-hosting, VPNs, and server management
-📎 Resources
+---
+
+###📎 Resources
 Jellyfin Docs
 Tailscale Docs
 MagicDNS Guide
-✨ License
+---
+
+###✨ License
 This project uses only open-source tools and has no proprietary dependencies. You are free to adapt and extend this for personal or educational use.
 📌 Want to contribute improvements?
 Fork this repo, clone it, and improve it for your setup or share with friends & family. Happy streaming! 🎬
