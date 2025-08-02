@@ -76,7 +76,7 @@ http://localhost:8096
 - Log in and connect the device
 - Get your Tailscale IP:
 
-![Tailscale IP](images/tailscale-ip.png)
+![Tailscale IP](/images/tailscale-ip.png)
 ---
 
 ### ✅ 4. Access Remotely via Tailscale
