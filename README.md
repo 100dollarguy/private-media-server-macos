@@ -25,13 +25,6 @@ You can stream your content **locally and remotely** using your phone, tablet, b
 | **macOS**       | Host OS                                          |
 | **Port 8096**   | Default port for Jellyfin web interface          |
 
-![Jellyfin UI](/images/\ .png)
-![Jellyfin UI](/images/e0a87856b69877660cb539a2a69dc60452aecc124bfc97116133877b45c2701e.png)
-![Jellyfin UI](/images/172f7eec117ffc94c592bcde0458c9fa97b1a0684876737203c09085f555d06c.png)
-![Jellyfin UI](/images/c94a31989ce61edb7f6bde2bf4da4f3e80a8a6b334b52fe6d743206dd087ed2d.png)
-![Jellyfin UI](/images/3db3b67bfda05e1aa8087d2978e2288338c31631f2a4e246569ab034bfc2f961.png)
-![Jellyfin UI]
-![Jellyfin UI](/images/d3bdb6284bcb42f4383f75db612e1a125febbbbd0c7d372a9579a04bd505d7fd.png)
 
 ---
 
@@ -86,11 +79,13 @@ http://localhost:8096
 ---
 
 ###✅ 4. Access Remotely via Tailscale
-From any other device with Tailscale installed, access:
+
+-From any other device with Tailscale installed, access:
 http://100.x.x.x:8096
 (Optional) Enable MagicDNS for cleaner access:
 http://your-mac-hostname.ts.net:8096
-🌐 Local Access
+
+-🌐 Local Access
 On host machine:
 http://localhost:8096
 On same LAN:
@@ -98,12 +93,15 @@ http://<your-local-ip>:8096
 ---
 
 ###✅ Testing Checklist
-Task	Status
-Jellyfin accessible on localhost	✅
-Media libraries added	✅
-Remote access via Tailscale IP	✅
-Tested from mobile device	✅
-MagicDNS hostname access (optional)	✅ / ❌
+
+|Task	                            |  Status    |
+-------------------------------------------------|
+|Jellyfin accessible on localhost    |	✅       | 
+
+|Media libraries added	            |    ✅      | 
+|Remote access via Tailscale IP	    |    ✅       |
+|Tested from mobile device	    |    ✅       |
+|MagicDNS hostname access (optional) |	✅ / ❌  |
 ---
 
 ###🔐 Security Notes
