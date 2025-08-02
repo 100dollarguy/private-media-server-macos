@@ -1,0 +1,51 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# macOS trash
+.Trashes
+.Spotlight-V100
+.fseventsd
+
+# Logs
+*.log
+
+# Jellyfin-specific
+config/
+metadata/
+cache/
+jellyfin.db
+jellyfin-log.txt
+
+# Tailscale runtime files
+tailscaled.log
+tailscale.log
+tailscale.state
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Media
+*.mp4
+*.mkv
+*.avi
+*.mp3
+*.flac
+*.jpg
+*.png
+
+# Backups
+*~
+*.bak
+*.tmp
+
+# Secrets (if ever used)
+.env
+.env.local
+
