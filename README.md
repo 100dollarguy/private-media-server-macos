@@ -132,26 +132,33 @@ Smart TVs	Jellyfin TV app, DLNA, Plex app
 ## 📚 What I Learned
 
 This project helped me develop practical skills in:
--🧠 Hosting a private, customizable streaming platform
--🔐 Securing access using Tailscale without exposing ports
--🖥️ Installing and managing services on macOS
--🌍 Networking concepts like mesh VPNs and MagicDNS
--🧪 Troubleshooting connectivity, firewall, and library issues
+
+- 🧠 Hosting a private, customizable streaming platform  
+- 🔐 Securing access using Tailscale without exposing ports  
+- 🖥️ Installing and managing services on macOS  
+- 🌍 Understanding networking concepts like mesh VPNs and MagicDNS  
+- 🧪 Troubleshooting connectivity, firewall, and library issues  
+
+
 ---
+
 ### 📁 Project Outcome
 
 With this setup, I now have:
--A secure, private media server accessible from anywhere
--Zero monthly costs, no ads, and no external trackers
--Full control over my library, user access, and playback
--An understanding of self-hosting, VPNs, and server management
+
+- ✅ A secure, private media server accessible from anywhere  
+- 💸 Zero monthly costs, no ads, and no external trackers  
+- 🎛️ Full control over my library, user access, and playback  
+- 🧠 An understanding of self-hosting, VPNs, and server management  
+
 ---
 
 ## 📎 Resources
 
-Jellyfin Docs
-Tailscale Docs
-MagicDNS Guide
+- [Jellyfin Docs](https://jellyfin.org/docs/)
+- [Tailscale Docs](https://tailscale.com/kb/)
+- [MagicDNS Guide](https://tailscale.com/kb/1081/magicdns/)
+
 ---
 
 ## ✨ License
