@@ -78,14 +78,14 @@ http://localhost:8096
 ![Tailscale IP](/images/Tailscale-ip\ .png)
 ---
 
-###✅ 4. Access Remotely via Tailscale
+### ✅ 4. Access Remotely via Tailscale
 
--From any other device with Tailscale installed, access:
+From any other device with Tailscale installed, access:
 http://100.x.x.x:8096
 (Optional) Enable MagicDNS for cleaner access:
 http://your-mac-hostname.ts.net:8096
 
--🌐 Local Access
+🌐 Local Access
 On host machine:
 http://localhost:8096
 On same LAN:
@@ -105,17 +105,22 @@ http://<your-local-ip>:8096
 ---
 
 ### 🔐 Security Notes
-No public IP exposure required
-All traffic encrypted with WireGuard via Tailscale
-Jellyfin supports user login with password
-Tailscale ACLs can limit which devices can access the server
+
+- 🔒 No public IP exposure required  
+- 🔐 All traffic encrypted with WireGuard via Tailscale  
+- 🧑‍💻 Jellyfin supports user login with password  
+- 🎯 Tailscale ACLs can limit which devices can access the server  
+
 ---
 
 ### 📱 Supported Clients
-Platform	Method
-Desktop	Web browser, VLC, MPV
-Mobile	Jellyfin app or browser
-Smart TVs	Jellyfin TV app, DLNA, Plex app
+
+| Platform   | Method                                  |
+|------------|------------------------------------------|
+| Desktop    | Web browser, VLC, MPV                   |
+| Mobile     | Jellyfin app or browser                 |
+| Smart TVs  | Jellyfin TV app, DLNA, Plex app         |
+
 ---
 
 ### 🔧 Optional Enhancements
