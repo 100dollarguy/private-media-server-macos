@@ -64,11 +64,6 @@ http://localhost:8096
 
 ![Jellyfin UI](/images/d3bdb6284bcb42f4383f75db612e1a125febbbbd0c7d372a9579a04bd505d7fd.png)
 
-![Jellyfin UI](/images/3df054a9450ca2c303b1ccc352ea92f5c50263338611a2aefdcf7f01abeda631.png)
-
-![Jellyfin UI](/images/694eb240d4a08e3b71ea2ebf33f7883b47598f7c8143746c131d8bbf4ad5b9ec.png)
-
-![Jellyfin UI](/images/b5b31bf564e8f3f64128deb6cf53a6aa1c59b2d2a13ce16f28e0df7d1f078132.png)
 
 ---
 
@@ -79,6 +74,13 @@ http://localhost:8096
 ![Library Setup](/images/5a2f6c9942ab8fa52b93956822298cbea60ba334d73e1783fbd1e581b57a14db.png)
 
 ![Library Setup](/images/8b5485c0bca04bc23e412933666596ee11b6a4e7a561a3d0901b5e44694f359b.png)
+
+![Library Setup](/images/3df054a9450ca2c303b1ccc352ea92f5c50263338611a2aefdcf7f01abeda631.png)
+
+![Library Setup](/images/694eb240d4a08e3b71ea2ebf33f7883b47598f7c8143746c131d8bbf4ad5b9ec.png)
+
+![Library Setup](/images/b5b31bf564e8f3f64128deb6cf53a6aa1c59b2d2a13ce16f28e0df7d1f078132.png)
+
 ---
 
 ### ✅ 3. Install and Configure Tailscale
