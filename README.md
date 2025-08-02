@@ -92,64 +92,70 @@ On same LAN:
 http://<your-local-ip>:8096
 ---
 
-###✅ Testing Checklist
+### ✅ Testing Checklist
 
-|Task	                            |  Status    |
--------------------------------------------------|
-|Jellyfin accessible on localhost    |	✅       | 
+| Task                                | Status   |
+|-------------------------------------|----------|
+| Jellyfin accessible on localhost    | ✅       |
+| Media libraries added               | ✅       |
+| Remote access via Tailscale IP      | ✅       |
+| Tested from mobile device           | ✅       |
+| MagicDNS hostname access (optional)| ✅ / ❌   |
 
-|Media libraries added	            |    ✅      | 
-|Remote access via Tailscale IP	    |    ✅       |
-|Tested from mobile device	    |    ✅       |
-|MagicDNS hostname access (optional) |	✅ / ❌  |
 ---
 
-###🔐 Security Notes
+### 🔐 Security Notes
 No public IP exposure required
 All traffic encrypted with WireGuard via Tailscale
 Jellyfin supports user login with password
 Tailscale ACLs can limit which devices can access the server
 ---
 
-###📱 Supported Clients
+### 📱 Supported Clients
 Platform	Method
 Desktop	Web browser, VLC, MPV
 Mobile	Jellyfin app or browser
 Smart TVs	Jellyfin TV app, DLNA, Plex app
 ---
 
-###🔧 Optional Enhancements
-Feature	Description
-Reverse Proxy (Caddy/Nginx)	Add HTTPS or custom domains (advanced)
-Auto-start on Boot	Start Jellyfin + Tailscale on login
-Plugins & Themes	Metadata enhancers, intro skip, etc.
-Device Sharing	Share Jellyfin access securely via Tailscale
+### 🔧 Optional Enhancements
+
+| Feature                     | Description                                      |
+|-----------------------------|--------------------------------------------------|
+| Reverse Proxy (Caddy/Nginx)| Add HTTPS or custom domains (advanced)          |
+| Auto-start on Boot          | Start Jellyfin + Tailscale on login             |
+| Plugins & Themes            | Metadata enhancers, intro skip, etc.            |
+| Device Sharing              | Share Jellyfin access securely via Tailscale    |
+
 ---
 
-###📚 What I Learned
+## 📚 What I Learned
+
 This project helped me develop practical skills in:
-🧠 Hosting a private, customizable streaming platform
-🔐 Securing access using Tailscale without exposing ports
-🖥️ Installing and managing services on macOS
-🌍 Networking concepts like mesh VPNs and MagicDNS
-🧪 Troubleshooting connectivity, firewall, and library issues
+-🧠 Hosting a private, customizable streaming platform
+-🔐 Securing access using Tailscale without exposing ports
+-🖥️ Installing and managing services on macOS
+-🌍 Networking concepts like mesh VPNs and MagicDNS
+-🧪 Troubleshooting connectivity, firewall, and library issues
 ---
+### 📁 Project Outcome
 
-###📁 Project Outcome
 With this setup, I now have:
-A secure, private media server accessible from anywhere
-Zero monthly costs, no ads, and no external trackers
-Full control over my library, user access, and playback
-An understanding of self-hosting, VPNs, and server management
+-A secure, private media server accessible from anywhere
+-Zero monthly costs, no ads, and no external trackers
+-Full control over my library, user access, and playback
+-An understanding of self-hosting, VPNs, and server management
 ---
 
-###📎 Resources
+## 📎 Resources
+
 Jellyfin Docs
 Tailscale Docs
 MagicDNS Guide
 ---
 
-###✨ License
+## ✨ License
+
 This project uses only open-source tools and has no proprietary dependencies. You are free to adapt and extend this for personal or educational use.
 📌 Want to contribute improvements?
 Fork this repo, clone it, and improve it for your setup or share with friends & family. Happy streaming! 🎬
