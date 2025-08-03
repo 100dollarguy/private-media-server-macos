@@ -38,8 +38,7 @@ tailscale.state
 *.avi
 *.mp3
 *.flac
-*.jpg
-*.png
+
 
 # Backups
 *~
@@ -49,4 +48,10 @@ tailscale.state
 # Secrets (if ever used)
 .env
 .env.local
+
+
+# Allow images in the images folder for README
+!images/
+!images/*.png
+!images/*.jpg
 
