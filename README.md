@@ -40,15 +40,17 @@ I wanted a simple, private way to enjoy my media on all my devices — at home o
 
 I downloaded the `.pkg` installer from [jellyfin.org/downloads](https://jellyfin.org/downloads/), installed it like any other app, and launched the server.
 
+
+![Jellyfin UI](/images/e0a87856b69877660cb539a2a69dc60452aecc124bfc97116133877b45c2701e.png)  
+![Jellyfin UI](/images/172f7eec117ffc94c592bcde0458c9fa97b1a0684876737203c09085f555d06c.png)  
+![Jellyfin UI](/images/c94a31989ce61edb7f6bde2bf4da4f3e80a8a6b334b52fe6d743206dd087ed2d.png) 
+
 I accessed it from my local browser at:
 
 http://localhost:8096
 
 Here’s what it looked like once it was up and running:
-
-![Jellyfin UI](/images/e0a87856b69877660cb539a2a69dc60452aecc124bfc97116133877b45c2701e.png)  
-![Jellyfin UI](/images/172f7eec117ffc94c592bcde0458c9fa97b1a0684876737203c09085f555d06c.png)  
-![Jellyfin UI](/images/c94a31989ce61edb7f6bde2bf4da4f3e80a8a6b334b52fe6d743206dd087ed2d.png)  
+ 
 ![Jellyfin UI](/images/3db3b67bfda05e1aa8087d2978e2288338c31631f2a4e246569ab034bfc2f961.png)  
 ![Jellyfin UI](/images/223a6972096016dcc58d27a91280f5326c86aad4a3a6b7f45629656584597579.png)  
 ![Jellyfin UI](/images/d2e0e28a56e0df796a74f0c2bce3f523839b51e3415370716823a75066fae65c.png)  
