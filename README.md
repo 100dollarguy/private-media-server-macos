@@ -62,9 +62,10 @@ Here’s what it looked like once it was up and running:
 
 I organized my files into folders like:
 
+```shell
 ~/Media/Movies
 ~/Media/TV
-
+```
 Then, in the Jellyfin dashboard, I went to **Dashboard → Libraries → Add Media Library** and linked those folders.
 
 Here's the library setup in action:
@@ -93,12 +94,14 @@ Once it connected, I grabbed the Tailscale IP from the app:
 
 From any of my other devices (with Tailscale installed), I could now connect to:
 
+```shell
 http://100.x.x.x:8096
-
+```
 To make it even cleaner, I enabled MagicDNS and used:
 
+```shell
 http://your-mac-hostname.ts.net:8096
-
+```
 ### 🌐 Access Points
 
 | Location        | URL                                |
